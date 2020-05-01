@@ -49586,7 +49586,11 @@ var content = __webpack_require__(45);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
+<<<<<<< HEAD
 var update = __webpack_require__(47)("06e6ecf6", content, false, {});
+=======
+var update = __webpack_require__(47)("1c911436", content, false, {});
+>>>>>>> 6b3fab92605535691846feb363d5de3441f835f4
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
