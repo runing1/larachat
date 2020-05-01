@@ -46,6 +46,7 @@
         </div>
 
         <form @submit.prevent="onSubmit">
+            {{ csrf_field() }}
             <div class="form-group">
                 <label for="user_id">私聊</label>
 
