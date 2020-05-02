@@ -31,10 +31,10 @@ class User extends Authenticatable
     ];
 
     //返回用户头像
-//    public function avatar()
-//    {
-//        return "https://www.gravatar.com/avatar/" . md5(strtolower($this->email)) . "?d=retro&s=64";
-//    }
+    public function avatar()
+    {
+        return "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3002379740,3965499425&fm=26&gp=0.jpg";
+    }
 
     public function message()
     {
