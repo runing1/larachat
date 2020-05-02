@@ -27,7 +27,7 @@ $gateway->name = 'YourAppGateway';
 // gateway进程数
 $gateway->count = 4;
 // 本机ip，分布式部署时使用内网ip
-$gateway->lanIp = '172.16.143.101';
+$gateway->lanIp = '127.0.0.1';
 // 内部通讯起始端口，假如$gateway->count=4，起始端口为4000
 // 则一般会使用4000 4001 4002 4003 4个端口作为内部通讯端口 
 $gateway->startPort = 2900;
@@ -35,9 +35,9 @@ $gateway->startPort = 2900;
 $gateway->registerAddress = '127.0.0.1:1238';
 
 // 心跳间隔
-//$gateway->pingInterval = 10;
+$gateway->pingInterval = 10;
 // 心跳数据
-//$gateway->pingData = '{"type":"ping"}';
+$gateway->pingData = '{"type":"ping"}';
 
 /* 
 // 当客户端连接上来时，设置连接的onWebSocketConnect，即在websocket握手时的回调
