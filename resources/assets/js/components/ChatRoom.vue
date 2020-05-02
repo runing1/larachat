@@ -66,7 +66,7 @@
 </template>
 
 <script>
-    let ws = new WebSocket("ws://127.0.0.1:8282");
+    let ws = new WebSocket("ws://47.96.122.84:8282");
     export default {
         data() {
             return {
