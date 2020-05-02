@@ -19,7 +19,7 @@ class HomeController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
-        Gateway::$registerAddress='127.0.0.1:8282';
+        Gateway::$registerAddress='172.16.143.101:8282';
     }
 
     /**
